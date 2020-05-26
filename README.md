@@ -18,18 +18,31 @@ Tge code is in main.ino. It includes 6 controls:
 6) Timewarp feature to speed progression of time
 
 Each of these controls is wired to a switch in a loop of:
+[
 
 5V in
+
 |
+
 Resister (appopriate for LED)
+
 |
+
 LED (to show when control is activated)
+
 |
+
 ----------------> DIGITAL PIN on arduino (read if HIGH/LOW and determine how to respond)
+
 |
+
 Simple switch
+
 |
+
 Ground
+
+]
 
 So that when the switch is on, there is a voltage drop across the LED and the digital pin reads LOW.
 
