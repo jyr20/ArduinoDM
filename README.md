@@ -19,7 +19,7 @@ Tge code is in main.ino. It includes 6 controls:
 
 Each of these controls is wired to a switch in a loop of:
 
-5V in\
+**5V in\
 |\
 Resister (appopriate for LED)\
 |\
@@ -29,7 +29,7 @@ LED (to show when control is activated)\
 |\
 Simple switch\
 |\
-Ground\
+Ground**
 
 So that when the switch is on, there is a voltage drop across the LED and the digital pin reads LOW.
 
